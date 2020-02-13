@@ -6,7 +6,7 @@ jobs:
     name: A job to say hello
     steps:
       - name: Hello world action step
-        uses: savinovd/github-actions-test/./
+        uses: savinovd/github-actions-test@master
         id: hello
         with:
           who-to-greet: 'TEST'
